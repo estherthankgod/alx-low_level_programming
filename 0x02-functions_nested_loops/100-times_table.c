@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print_times_table - Prints a multiplication table up to param
+*print_times_table _ Prints a multiplication table up to param
 *@n: The number to be treated
 *Return: Number matrix
 */
