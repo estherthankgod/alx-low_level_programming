@@ -1,13 +1,14 @@
 #include "main.h"
 /**
-*print_times_table _ Prints a multiplication table up to param
-*@n: The number to be treated
-*Return: Number matrix
+* print_times_table - Prints a mltiplication table up to param
+*
+* @n: The number to be treated
+*
+*Return: Number matric
 */
 void print_times_table(int n)
 {
 int a, b, op;
-
 if (n >= 0 && n <= 15)
 {
 for (a = 0; a <= n; a++)
