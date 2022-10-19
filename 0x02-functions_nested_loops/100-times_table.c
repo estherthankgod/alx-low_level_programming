@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_times_table - Prints a mltiplication table up to param
+* print_times_table - Prints the n times table
 *
 * @n: The number to be treated
 *
