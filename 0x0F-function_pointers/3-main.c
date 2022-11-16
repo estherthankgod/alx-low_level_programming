@@ -9,7 +9,7 @@
  *
  * Return: Always 0.
  */
-int main(int _attribute((unused_)) argc, char *argv[])
+int main(int _attribute_((unused_)) argc, char *argv[])
 {
 int num1, num2;
 char *op;
@@ -40,4 +40,4 @@ exit(100);
 return (0);
 }
 
-printf("%d\n", get_op_func(op)(num1, num2));
+Printf("%d\n", get_op_func(op)(num1, num2))
