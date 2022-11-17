@@ -39,7 +39,7 @@ printf("%d", num);
  * @arg: A list of arguments pointing to
  *   the string to be printed.
  */
-void print_string(va_list arg)
+void print_float(va_list arg)
 {
 float num;
 
