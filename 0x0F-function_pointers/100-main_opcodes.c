@@ -10,7 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-nt bytes, index;
+int bytes, index;
 int (address)(int, char *) = main;
 unsigned char opcode;
 
@@ -36,3 +36,11 @@ printf("%.2x", opcode);
 if (index == bytes - 1)
 continue;
 printf(" ");
+
+address++;
+}
+
+printf("\n");
+
+return (0);
+}
