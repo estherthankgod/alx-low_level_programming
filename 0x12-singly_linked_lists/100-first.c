@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void _attribute_((constructor)) hare(void);
+void_attribute_((constructor)) hare(void);
 
 /**
  * hare - Prints a string before the
