@@ -1,6 +1,6 @@
 extern printf
 
-ection .text
+section .text
 global main
 
 main:
@@ -10,7 +10,6 @@ mov rdi,fmt
 mov rsi,msg
 mov rax,0
 call printf
-xport BEST="Scool"
 
 pop rbp
 
