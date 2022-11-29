@@ -33,3 +33,8 @@ return (-1);
 copy = copy->next;
 }
 
+tmp = copy->next;
+copy->next = tmp->next;
+free(tmp);
+return (1);
+}
