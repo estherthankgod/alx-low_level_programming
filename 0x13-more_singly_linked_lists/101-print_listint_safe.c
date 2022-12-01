@@ -43,6 +43,7 @@ tortoise = tortoise->next;
 }
 return (nodes);
 }
+
 tortoise = tortoise->next;
 hare = (hare->next)->next;
 }
