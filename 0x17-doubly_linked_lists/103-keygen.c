@@ -55,7 +55,7 @@ return (((unsigned int)ch ^ 239) & 63);
 }
 
 /**
- * f6 - generates a random char 
+ * f6 - generates a random char
  *
  * @usrn: username
  * Return: a random char
